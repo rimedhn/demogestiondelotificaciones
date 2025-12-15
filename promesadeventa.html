@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CONTRATO DE PROMESA DE VENTA</title>
+  <style>
+    /* Global typography */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      margin: 30px;
+      -webkit-print-color-adjust: exact;
+    }
+
+    /* Container for the main contract text */
+    #content {
+      text-align: justify;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    /* Title styling: centered and bold */
+    .title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 16px; /* requested overall size 12 */
+    }
+
+    /* Inline field placeholders */
+    [data-field] {
+      /* default normal weight; specific fields will be rendered bold by the script when needed */
+    }
+
+    /* Signature layout: stacked vertically for easier gestión */
+    .signatures-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 28px;
+      gap: 18px;
+    }
+
+    .sig {
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Make all signature lines the same visual width as buyer lines */
+    .sig .hrline {
+      border-top: 1px solid #000;
+      height: 1px;
+      width: 60%;
+      margin: 18px auto 8px auto;
+    }
+
+    /* Buyers signature line: give more vertical space above and below for actual signing */
+    .buyer-block .hrline {
+      border-top: 1px solid #000;
+      height: 1px;
+      width: 60%;
+      margin: 40px auto 5px auto; /* increased space for signature and between line and printed name */
+    }
+
+    .sig .name {
+      margin-top: 6px;
+      font-weight: bold;
+    }
+
+    .sig .role {
+      margin-top: 2px;
+    }
+
+    /* Buyers signatures: centered blocks, one per buyer */
+    #buyers {
+      margin-top: 8px;
+      width: 100%;
+    }
+
+    .buyer-block {
+      text-align: center;
+      margin-top: 24px;
+      page-break-inside: avoid;
+    }
+
+    .buyer-block .buyer-name {
+      font-weight: bold;
+      margin-top: 12px;
+      text-transform: uppercase;
+    }
+
+    .buyer-block .buyer-role {
+      margin-top: 2px;
+      font-style: normal;
+    }
+
+    /* Prevent signature blocks from collapsing at page breaks */
+    .sig, .buyer-block { break-inside: avoid; }
+
+    /* Enumerators wrapped will use this class */
+    .enumerator { font-weight: bold; }
+
+    /* Print adjustments */
+    @media print {
+      body { margin: 10mm; }
+      .signatures-top { gap: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+    <div class="title">CONTRATO DE PROMESA DE VENTA</div>
+
+NOSOTROS: <span data-field="Representante">&lt;&lt;Representante&gt;&gt;</span>, <span data-field="Datosrepresentante">&lt;&lt;Datosrepresentante&gt;&gt;</span> <span data-field="NombreEmpresa">&lt;&lt;NombreEmpresa&gt;&gt;</span>  <span data-field="DatosInstrumento">&lt;&lt;DatosInstrumento&gt;&gt;</span> <span data-field="DatosNotario">&lt;&lt;DatosNotario&gt;&gt;</span>, y  quien de aquí en adelante será denominado (a) como ÉL (LA) PROMINENTE VENDEDOR (A) y <span data-field="DatoCompradorContrato">&lt;&lt;DatoCompradorContrato&gt;&gt;</span>, hemos convenido en celebrar; como en efecto celebramos, el presente Contrato de Promesa de Venta, el cual se Regirá supletoriamente, por la legislación vigente de la República de Honduras que le sea aplicable y especialmente por las siguientes cláusulas y condiciones: 
+    <strong>-PRIMERA:</strong> EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa, manifiesta que su representado (a) es dueño (a) de un lote de terreno el cual se describe así: ubicado en  <span data-field="DatosLotificacionContrato">&lt;&lt;DatosLotificacionContrato&gt;&gt;</span> y del cual se <span data-field="IdentificacionLotesVentaContrato">&lt;&lt;IdentificacionLotesVentaContrato&gt;&gt;</span>  <span data-field="DatosLotesVentaContrato">&lt;&lt;DatosLotesVentaContrato&gt;&gt;</span> 
+    <strong>-SEGUNDA:</strong> LA PROMINENTE VENDEDORA, en la condición con que actúa  por tenerlo así convenido, al precio y condiciones que se establecen en las cláusulas siguientes, por este acto da en promesa de Venta  <span data-field="AlProminenteComprador">&lt;&lt;AlProminenteComprador&gt;&gt;</span>, <span data-field="ElLosLotesDesccritos">&lt;&lt;ElLosLotesDesccritos&gt;&gt;</span> en la cláusula precedente,  <span data-field="QuienLoReciben">&lt;&lt;QuienLoReciben&gt;&gt;</span> a su entera satisfacción. 
+    <strong>-TERCERA:</strong> Continua manifestando EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa, que el contrato de promesa de compraventa a ser suscrito, en ejecución de esta promesa de venta deberá incluir las condiciones restrictivas relacionadas con las obligaciones descritas en las cláusulas sub-siguientes de este contrato; asimismo, si por cualquier causa, el lote de terreno descrito en la cláusula primera de este contrato resultare con un área menor a la estipulada en la misma, es convenido y acepto expresamente por las partes que la menor cabida no dará lugar a la disolución de este contrato, o en su caso, del contrato de compraventa, si este ya se hubiese suscrito, pactándose que en dicha eventualidad será su obligación restituir  <span data-field="AlProminenteComprador">&lt;&lt;AlProminenteComprador&gt;&gt;</span>, sin pago de ningún valor en concepto perjuicios o intereses y al precio estipulado en los metros cuadrados o su equivalente en varas cuadradas que resulte de esta transacción, el valor equivalente al número de metros o de varas cuadradas que este en la imposibilidad de entregar <span data-field="AlProminenteComprador">&lt;&lt;AlProminenteComprador&gt;&gt;</span>; del mismo modo, si  el área entregada resultare mayor a la estipulada, <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> se obliga expresamente a pagar a EL (LA) PROMINENTE VENDEDOR (A) la diferencia  por la cual resultare deudor, al precio que por metros o vara cuadrada se haya estipulado; 
+    <strong>-CUARTA:</strong> El precio de la venta total del lote de terreno será por <span data-field="MontoLetras">&lt;&lt;MontoLetras&gt;&gt;</span> LEMPIRAS EXACTOS (LPS  <span data-field="Monto">&lt;&lt;Monto&gt;&gt;</span>), de los cuales en este acto <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> hace entrega a EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa, la cantidad de <span data-field="PrimaLetras">&lt;&lt;PrimaLetras&gt;&gt;</span> (LPS <span data-field="Prima">&lt;&lt;Prima&gt;&gt;</span>), en calidad de PRIMA quedando un saldo pendiente de <span data-field="FinanciadoLetras">&lt;&lt;FinanciadoLetras&gt;&gt;</span> LEMPIRAS EXACTOS (LPS <span data-field="Financiado">&lt;&lt;Financiado&gt;&gt;</span>) y pagara la cantidad en cuotas nivelas de <span data-field="CuotaLetras">&lt;&lt;CuotaLetras&gt;&gt;</span> (LPS: <span data-field="Cuota">&lt;&lt;Cuota&gt;&gt;</span>) durante <span data-field="PlazoLetras">&lt;&lt;PlazoLetras&gt;&gt;</span> MESES, contados a partir de la firma del presente contrato.  <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> podrá realizar en el momento que crea oportuno PAGOS PARA ABONAR A CAPITAL. 
+    <strong>-QUINTA:</strong> El plazo para el cumplimiento en cuanto a la transferencia de dominio en escritura pública o suscripción de la compraventa se establecerá por los Abogados del BUFETE LUJAN Y ASOCIADOS, encargados del Proyecto, hasta la fecha en que se encuentre pagado la totalidad de la deuda por  <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>, corriendo por cuenta de <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>, los gastos de honorarios profesionales, timbres de contratación, impuestos de registro, impuesto sobre tradición, constancias catastrales, para obtener su escritura de compra y venta. 
+    <strong>-SEXTA:</strong> Durante el tiempo en que <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> no haya suscrito la escritura de compraventa, y pasado seis meses tendrá el derecho de ocupar el inmueble y a efectuar mejoras y construcciones en el mismo; sin embargo, la edificación de cualquier mejora o construcción, deberá hacerse con permiso previo de la autoridad municipal correspondiente y con conocimiento de EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa. 
+    <strong>-SEPTIMA:</strong> Estará a Cargo de <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>: A) Gestionar personalmente la instalación  de los Servicios Públicos al lote prometido en venta.-B) Pagar puntualmente las tasas  por servicios públicos como alumbrado eléctrico, agua potable, contribución por mejoras y demás servicios que recibiere, así como el pago del impuesto sobre bienes inmuebles y las demás cargas municipales que afecten el inmueble desde el momento de la suscripción del contrato.-C) Aceptar la servidumbre de paso de agua de lluvia, acueductos, electro ductos, ductos o cables telefónicos y demás similares que por razones topográficas deban pasar por el sub-suelo o el espacio aéreo de la propiedad.-D) Se compromete a que la tierra y demás materiales similares como desechos de construcción no sean arrojados en ninguna parte de la urbanización. Se prohíbe  <span data-field="AlProminenteComprador">&lt;&lt;AlProminenteComprador&gt;&gt;</span> a realizar actividades como batida de mezcla de concreto, mortero, repello u otro material necesario para la construcción, en o sobre las aceras, áreas verdes, calles, callejones sanitarios, lotes adyacentes, o cualquier lugar fuera del destino al lote objeto de este contrato, debido a los daños físicos y estéticos que causan. 
+    <strong>-OCTAVA:</strong> Por su parte EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa por este acto se obliga a: 1) la electrificación e iluminación del proyecto, exceptuando la instalación y costos del servicio especifico para cada lote y el uso de medidores, los cuales correrán a cargo de  <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>. -2) la dotación del suministro global del agua potable, exceptuando los costos de instalación y el uso de medidores de agua para cada lote los cuales corren a cargo de <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> cuando sean necesario. 
+    <strong>-NOVENA:</strong> Queda Prohibido <span data-field="AlProminenteComprador">&lt;&lt;AlProminenteComprador&gt;&gt;</span> y a sus descendientes: a) Utilizar el inmueble para fines de depósito de materiales inflamables, corrosivas o explosivas o para cantinas, bares o lenocinios o similares en que se expendan bebidas alcohólicas; b) Ceder el presente contrato y los derechos que de él se derivan y fraccionar el lote o los lotes, convertirlo en acceso o calle hacia otras áreas de la urbanización, colonias o predios vecinos, sin la autorización previa y por escrito de EL (LA) PROMINENTE VENDEDOR (A). c) Ocupar, tomar posesión detener áreas de terreno adicionales a las que corresponden al lote o los lotes objeto de este contrato, sean o no adyacentes al mismo, d) Realizar labores hogareñas como lavado de ropa, su secado, disposición de basura y las demás similares en condiciones que causen molestias y riesgos a la salud y a los bienes de los vecinos o que afectan el medio ambiente y la libre circulación peatonal y vehicular en las vías públicas, e) Instalar cualquier tipo de propaganda o cartelones y placas, excepto las comúnmente usadas para identificar al ocupante del inmueble, nomenclatura municipal y las profesionales siempre que se instalen dentro de la propiedad y para el cumplimiento de estas obligaciones,  <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> faculta a EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa  o a quienes éste autorice para hacer inspecciones periódicas en el lote. 
+    <strong>-DECIMA:</strong>  El plazo de este contrato es de <span data-field="PlazoLetras">&lt;&lt;PlazoLetras&gt;&gt;</span> MESES, contados a partir de la fecha de suscripción, al final del cual deberá verificarse la tradición de dominio en escritura publica de compra venta a favor de <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> y en caso de muertes de este, a favor de la persona o personas que legalmente deban sucederle por vía testamentaria o ab-intestato, previa acreditación de tales derechos con la presentación de la certificación judicial correspondiente debidamente inscrita en el libro de Sentencias del Registro de la propiedad que corresponda. Quedando entendido <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>, que en caso de incumplimiento de tres meses consecutivos o alternos en el pago de la mensualidades, este contrato se dará por terminado y todo lo que se haya pagado en concepto de prima o mensualidades, quedaran a favor de EL (LA) PROMINENTE VENDEDOR (A).- ASI MISMO SE COBRARA UN RECARGO MORATORIO DE <span data-field="RecargoLetras">&lt;&lt;RecargoLetras&gt;&gt;</span> (<span data-field="RecargoApp">&lt;&lt;RecargoApp&gt;&gt;</span>) SI PAGA DESPUES DEL CINCO DE CADA MES POR CUOTA RETRASADA. 
+    <strong>-DECIMO PRIMERA:</strong> En caso que <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> o sus herederos incumplieron con las obligaciones a su cargo o incurrieren en cualquiera de las prohibiciones estipuladas en el presente contrato, dará derecho a EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa, en cualquiera de estas circunstancias, para dar por terminado de pleno derecho el presente  contrato y exigir la inmediata desocupación del inmueble, en cuyo caso los valores pagados por <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> y las mejoras introducidas quedarán a favor de EL (LA) PROMINENTE VENDEDOR (A), en la condición con que actúa, en concepto y a cuenta de daños y perjuicios. 
+    <strong>-DECIMO SEGUNDA:</strong> Queda expresamente convenido y así lo acepta <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>. a) Que la conformación o nivelación del lote objeto de este contrato, construcción de muros o cualquiera otra tendencia a prepararlo para la construcción de mejoras, estarán a cargo de  <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>. b) que este contrato tendrá efectos a partir de la fecha de suscripción; independiente de la fecha en que materialmente <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>  reciba el lote o los lotes de terreno dado en promesa de venta. c)  La construcción de muros perimetrales que privaticen el lote prometido en venta, será responsabilidad de  <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>. 
+    <strong>-DECIMO TERCERA:</strong> <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span>  renuncia expresamente al fuero de su domicilio y se somete, en caso de conflicto, al Juzgado de Letras Seccional de La Ceiba, Departamento de Atlántida, recibiendo  <span data-field="ElProminenteComprador">&lt;&lt;ElProminenteComprador&gt;&gt;</span> a su entera satisfacción, el inmueble objeto del presente contrato. 
+    <strong>-DECIMO CUARTA:</strong> <span data-field="DatosCompradorFinalContrato">&lt;&lt;DatosCompradorFinalContrato&gt;&gt;</span>, que es cierto todo lo expresado por el (la) señor (a) <span data-field="Representante">&lt;&lt;Representante&gt;&gt;</span>, en su condición antes expresada y que por así tenerlo convenido acepta expresamente todo lo estipulado en el presente contrato y se compromete a darle cumplimiento de buena fe, en virtud de lo cual lo suscribimos en original y dos copias de las cuales se entregarán una <span data-field="AlProminenteComprador">&lt;&lt;AlProminenteComprador&gt;&gt;</span> y otra a la oficina de catastro municipal de la Ciudad de la Masica para su inscripción.
+En la ciudad de xxxxxxxxxxxxxxx, departamento de xxxxxxxxxxxxx a los <span data-field="FechaLetras">&lt;&lt;FechaLetras&gt;&gt;</span>
+  </div>
+
+  <!-- Signatures: stacked vertically -->
+  <div class="signatures-top">
+    <div class="sig" id="sig-representante">
+      <div class="hrline"></div>
+      <div class="name" data-field="Representante">&lt;&lt;Representante&gt;&gt;</div>
+      <div class="role">GERENTE</div></br></br>
+    </div>
+
+    <div class="sig" id="sig-estipulante">
+      <div class="hrline"></div>
+      <div class="name" data-field="FirmaEstipulanteContrato">&lt;&lt;FirmaEstipulanteContrato&gt;&gt;</div>
+      <div class="role">ESTIPULANTE</div></br></br>
+    </div>
+  </div>
+
+  <!-- Buyers signatures: one block per buyer (hidden if estipulante provided) -->
+  <div id="buyers"></div>
+
+  <script>
+    // List of all fields present between <<[ ... ]>> in the document
+    var FIELD_NAMES = [
+      "Representante","Datosrepresentante","NombreEmpresa","DatosInstrumento","DatosNotario",
+      "DatoCompradorContrato","DatosLotificacionContrato","IdentificacionLotesVentaContrato","DatosLotesVentaContrato",
+      "AlProminenteComprador","ElLosLotesDesccritos","QuienLoReciben","MontoLetras","Monto",
+      "PrimaLetras","Prima","FinanciadoLetras","Financiado","CuotaLetras","Cuota",
+      "PlazoLetras","RecargoLetras","RecargoApp","DatosCompradorFinalContrato","FechaLetras",
+      "FirmaEstipulanteContrato","NombreCompradores","ProminenteComprador","ElProminenteComprador"
+    ];
+
+    // Fields to make bold (names, montos y cantidades)
+    var BOLD_FIELDS = [
+      "Representante","NombreEmpresa","DatosNotario",
+      "DatoCompradorContrato","DatosLotificacionContrato","IdentificacionLotesVentaContrato","DatosLotesVentaContrato",
+      "AlProminenteComprador","MontoLetras","Monto",
+      "PrimaLetras","Prima","FinanciadoLetras","Financiado","CuotaLetras","Cuota",
+      "PlazoLetras","RecargoLetras","RecargoApp","DatosCompradorFinalContrato",
+      "FirmaEstipulanteContrato","NombreCompradores","ProminenteComprador","ElProminenteComprador"
+    ];
+
+    // Numeric fields to apply thousands separators
+    var NUMERIC_FIELDS = ["Monto","Prima","Financiado","Cuota"];
+
+    // Return query parameter (decoded)
+    function getQueryParam(name) {
+      var p = new URLSearchParams(window.location.search);
+      return p.get(name) || "";
+    }
+
+    // Escape HTML to avoid injections when setting innerHTML
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    // Format number with thousands separators (comma) preserving decimals if present
+    function formatNumberWithThousands(v) {
+      if (v === null || v === undefined) return v;
+      var s = String(v).trim();
+      if (s === "") return s;
+      // Remove currency symbols and spaces (keep digits, dot, comma, minus)
+      s = s.replace(/[^\d\.\,\\-]/g, '');
+      // If both dot and comma present, treat dot as decimal and remove commas
+      if (s.indexOf('.') !== -1 && s.indexOf(',') !== -1) {
+        s = s.replace(/,/g, '');
+      } else if (s.indexOf(',') !== -1 && s.indexOf('.') === -1) {
+        // only commas -> treat comma as decimal separator
+        s = s.replace(/,/g, '.');
+      }
+      var negative = s.charAt(0) === '-';
+      if (negative) s = s.slice(1);
+      var parts = s.split('.');
+      var intPart = parts[0] || '0';
+      var decPart = parts.length > 1 ? parts.slice(1).join('.') : '';
+      intPart = intPart.replace(/\D/g, '');
+      intPart = intPart.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      var result = negative ? '-' + intPart : intPart;
+      if (decPart) result += '.' + decPart;
+      return result;
+    }
+
+    // Fill all elements that contain data-field attributes matching our fields
+    function fillFields() {
+      FIELD_NAMES.forEach(function(name) {
+        var value = getQueryParam(name);
+        if (value === null || value === undefined || value === "") return;
+        var els = document.querySelectorAll('[data-field="' + name + '"]');
+        els.forEach(function(el){
+          var displayValue = value;
+          // If numeric field, format with thousands separators
+          if (NUMERIC_FIELDS.indexOf(name) !== -1) {
+            displayValue = formatNumberWithThousands(value);
+          }
+          var safe = escapeHtml(displayValue);
+          if (BOLD_FIELDS.indexOf(name) !== -1) {
+            el.innerHTML = "<strong>" + safe + "</strong>";
+          } else {
+            el.textContent = displayValue;
+          }
+        });
+      });
+    }
+
+    // Show/hide blocks depending on whether estipulante exists.
+    // If estipulante provided -> show gerente then estipulante and HIDE buyers.
+    // If not provided -> hide estipulante, show buyers and center gerente line (same width as buyers).
+    function toggleSignatureBlocks() {
+      var stip = getQueryParam("FirmaEstipulanteContrato");
+      var sigEst = document.getElementById("sig-estipulante");
+      var buyers = document.getElementById("buyers");
+      var rep = document.getElementById("sig-representante");
+
+      if (stip && stip.trim() !== "") {
+        // ensure estipulante block visible
+        if (sigEst) sigEst.style.display = "block";
+        // hide buyers
+        if (buyers) buyers.style.display = "none";
+        // revert gerente styling (centered is already default)
+        if (rep) {
+          rep.style.display = "block";
+        }
+      } else {
+        // no estipulante: hide estipulante block, show buyers, center gerente
+        if (sigEst) sigEst.style.display = "none";
+        if (buyers) buyers.style.display = "block";
+        if (rep) {
+          rep.style.display = "block";
+        }
+      }
+    }
+
+    // Render buyers signatures (one per buyer). Called regardless; toggleSignatureBlocks will hide/show #buyers.
+    function renderBuyers() {
+      var container = document.getElementById("buyers");
+      container.innerHTML = "";
+
+      var rawNames = getQueryParam("NombreCompradores");
+      if (!rawNames) return;
+
+      // Split names by comma (allow spaces) or by newline
+      var names = rawNames.split(/\s*,\s*|\r?\n/).map(function(s){ return s.trim(); }).filter(function(s){ return s.length>0; });
+
+      var rawRoles = getQueryParam("ProminenteComprador") || "";
+      var roles = [];
+      if (rawRoles.indexOf("|") !== -1) {
+        roles = rawRoles.split("|").map(function(s){ return s.trim(); });
+      } else if (rawRoles.indexOf(",") !== -1) {
+        roles = rawRoles.split(/\s*,\s*/).map(function(s){ return s.trim(); });
+      } else if (rawRoles.trim() !== "") {
+        // same role for all buyers
+        for (var k=0;k<names.length;k++) roles.push(rawRoles.trim());
+      }
+
+      for (var i=0;i<names.length;i++) {
+        var name = names[i];
+        var role = roles[i] || rawRoles || "COMPRADOR";
+
+        var block = document.createElement("div");
+        block.className = "buyer-block";
+
+        // signature line
+        var hr = document.createElement("div");
+        hr.className = "hrline";
+        block.appendChild(hr);
+
+        // buyer name (bold, uppercase)
+        var nameEl = document.createElement("div");
+        nameEl.className = "buyer-name";
+        nameEl.innerHTML = "<strong>" + escapeHtml(name.toUpperCase()) + "</strong>";
+        block.appendChild(nameEl);
+
+        // role (ProminenteComprador)
+        var roleEl = document.createElement("div");
+        roleEl.className = "buyer-role";
+        roleEl.textContent = role;
+        block.appendChild(roleEl);
+
+        container.appendChild(block);
+      }
+    }
+
+    // Normalize occurrences of vendor phrase to exact uppercase bold form
+    function normalizeVendorPhrase() {
+      var container = document.getElementById("content");
+      if (!container) return;
+      var html = container.innerHTML;
+
+      // Replace variants (ÉL / EL, with possible spacing or accents) to standardized bold phrase
+      html = html.replace(/\bÉL\s*\(LA\)\s*PROMINENTE\s*VENDEDOR\s*\(A\)\b/gi, 'EL (LA) PROMINENTE VENDEDOR (A)');
+      html = html.replace(/\bEL\s*\(LA\)\s*PROMINENTE\s*VENDEDOR\s*\(A\)\b/gi, 'EL (LA) PROMINENTE VENDEDOR (A)');
+      html = html.replace(/\bLA\s*PROMINENTE\s*VENDEDORA\b/gi, 'EL (LA) PROMINENTE VENDEDOR (A)');
+
+      // Wrap the standardized phrase in <strong> everywhere
+      html = html.replace(/EL\s*\(LA\)\s*PROMINENTE\s*VENDEDOR\s*\(A\)/g, '<strong>EL (LA) PROMINENTE VENDEDOR (A)</strong>');
+
+      container.innerHTML = html;
+    }
+
+    // Bold enumerators written in words in Spanish (handles many variants and punctuation)
+    function boldEnumerators() {
+      var container = document.getElementById("content");
+      if (!container) return;
+      var html = container.innerHTML;
+
+      // List of ordinal bases (masculine/feminine and accented variants)
+      var bases = [
+        'PRIMERO','PRIMERA','SEGUNDO','SEGUNDA','TERCERO','TERCERA','CUARTO','CUARTA',
+        'QUINTO','QUINTA','SEXTO','SEXTA','SEPTIMO','SEPTIMA','SÉPTIMO','SÉPTIMA',
+        'OCTAVO','OCTAVA','NOVENO','NOVENA','DECIMO','DECIMA','DÉCIMO','DÉCIMA',
+        'UNDÉCIMO','UNDECIMO','UNDÉCIMA','UNDECIMA','DUODÉCIMO','DUODÉCIMA',
+        'DECIMOTERCERO','DECIMOTERCERA','DECIMOCUARTO','DECIMOQUINTO','DECIMOSEXTO',
+        'DECIMOSEPTIMO','DECIMOOCTAVO','DECIMONOVENO','VIGESIMO','VIGESIMA','VIGÉSIMO','VIGÉSIMA',
+        'VIGESIMOPRIMERO','VIGESIMOPRIMERA','TRIGESIMO','TRIGESIMA','TRIGÉSIMO','TRIGÉSIMA',
+        'CUADRAGESIMO','CUADRAGESIMA','QUINCUAGESIMO','QUINCUAGESIMA'
+      ];
+
+      // prefixes for composite forms (DECIMO, VIGESIMO, etc.)
+      var prefixes = ['DECIMO','DÉCIMO','VIGESIMO','VIGÉSIMO','TRIGESIMO','TRIGÉSIMO','CUADRAGESIMO','CUADRAGÉSIMO','QUINCUAGESIMO'];
+      // suffixes to form composite like "DECIMO PRIMERO"
+      var suffixes = ['PRIMERO','PRIMERA','SEGUNDO','SEGUNDA','TERCERO','TERCERA','CUARTO','CUARTA','QUINTO','QUINTA'];
+
+      var composites = [];
+      prefixes.forEach(function(p){
+        suffixes.forEach(function(s){
+          // allow space or hyphen between parts
+          composites.push(p + '\\s+' + s);
+          composites.push(p + '-' + s);
+        });
+      });
+
+      var all = bases.concat(prefixes).concat(composites);
+
+      // sort longer first to avoid partial matches
+      all.sort(function(a,b){ return b.length - a.length; });
+
+      // build alternation, escape already includes backslashes in composites
+      var regexBody = all.join('|');
+
+      // allow optional leading hyphen/dash and optional preceding spaces/newline
+      // capture trailing punctuation variants: :, ., .-, -:, ,, ) etc.
+      var regex = new RegExp('(^|\\n|>)([\\s\\-\\u2013\\u2014]*?)(' + regexBody + ')(\\s*(?:\\.|:|\\.|\\-\\.|\\,|\\)|\\]|\\:|\\-){0,2})', 'gim');
+
+      // Replace matches but avoid touching inside tags by ensuring group1 isn't within a tag start (we included > anchor to start after tags)
+      html = html.replace(regex, function(match, g1, g2, g3, g4){
+        // preserve the prefix (g1/g2) then wrap g3+g4
+        return g1 + g2 + '<span class="enumerator">' + g3 + g4 + '</span>';
+      });
+
+      container.innerHTML = html;
+    }
+
+    // Bold the specific long contractual section and ensure vendor phrase replacement inside it
+    function boldSpecificSection() {
+      var container = document.getElementById("content");
+      if (!container) return;
+      var html = container.innerHTML;
+
+      // From "Quedando entendido" up to "POR CUOTA RETRASADA." inclusive -> make bold
+      var pattern = /Quedando entendido[\s\S]*?POR CUOTA RETRASADA\./i;
+      html = html.replace(pattern, function(m){
+        return '<strong>' + m + '</strong>';
+      });
+
+      // Also replace "LA PROMINENTE VENDEDORA" occurrences to standardized bold phrase
+      html = html.replace(/LA PROMINENTE VENDEDORA/gi, function(){
+        return '<strong>EL (LA) PROMINENTE VENDEDOR (A)</strong>';
+      });
+
+      container.innerHTML = html;
+    }
+
+    // On load: fill fields, normalize vendor phrase, toggle signature blocks, render buyers, then apply bolding
+    window.onload = function() {
+      fillFields();
+      normalizeVendorPhrase();
+      toggleSignatureBlocks();
+      renderBuyers();
+
+      // Apply textual transformations after fields are filled
+      boldEnumerators();
+      boldSpecificSection();
+
+      // Small timeout so rendering completes; preserve original behavior of opening print dialog
+      setTimeout(function(){ window.print(); }, 500);
+    };
+  </script>
+</body>
+</html>
